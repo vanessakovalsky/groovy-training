@@ -6,7 +6,8 @@
 
 ## Correspondance exacte
 
-* Dans le fichier `tournament-results.csv` vérifier si la colonne Ro1 correspond  exactement à la colonne Ro2
+* Définir un pattern pour le score (qui contient un ou deux chiffre)
+* Dans le fichier `tournament-results.csv` vérifier si la colonne Ro1 et Ro2 correspondent bien au pattern score
 * Afficher pour chaque ligne du tableau si cela correspond ou non
 
 * Lancer le fichier `groovy exercise.groovy`
@@ -16,7 +17,7 @@
 
 ## Contient
 
-* Dans le fichier `tournament-results.csv` vérifier si le contenu de colonne Ro1 est présent dans la colonne Ro2
+* Dans le fichier `tournament-results.csv` vérifier pour les colonnes Ro1 et Ro2 que le contenu contient le pattern score
 
 * Lancer le fichier `groovy exercise.groovy`
 * Vérifier que la sortie correspond à ce qui est attendu.
@@ -25,7 +26,7 @@
 
 ### Groupes de Capture
 
-* Appliquer la regex `/ee/` sur le contenu de la colone VS
+* Rechercher la regex `/ee/` sur le contenu de la colone VS
 * Afficher les éléments suivants :
     * un boolen qui dit où est la correspondance
     * le nombre total de correspondance
@@ -36,7 +37,7 @@
 
 ## Remplacer
 
-* Utiliser regex pour remplacer tout les nombre `13` par `42` 
+* Utiliser regex pourg remplacer tout les nombre `13` par `42` 
 * Afficher le resultat (l'ensemble du tableau)
 
 * Lancer le fichier `groovy exercise.groovy`

@@ -3,7 +3,7 @@
 ## Pré-requis
 
 * Pour pouvoir réaliser ces exercices il est nécessaire :
-    * d'installer groovy : https://groovy.apache.org/download.html
+    * d'installer groovy (version 3 au minimumsudo g): https://groovy.apache.org/download.html
     * d'installer un editeur de code comme visual studio code : https://code.visualstudio.com/
 
 ## Conseil
@@ -18,7 +18,7 @@ Vérifier la [docs.groovy-lang.org](http://docs.groovy-lang.org/latest/html/docu
 
 ## Définir des variables
 
-* Commencer par stocker trois nombres dans trois variables :  `<type> <name> = <value>`
+* Commencer par stocker trois nombres dans trois variables :  `<name> = <value>`
 
 * Puis ajouter, soustrayer, multiplier ou diviser les nombres comme vous le souhaitez et stocker le résultant dans une nouvelle variable 
 
